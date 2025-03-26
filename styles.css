@@ -1,0 +1,19 @@
+header {
+    background-color: #1F2937;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+ }
+
+nav a {
+    color: #E5E7EB;
+    margin-left: 20px;
+    text-decoration: none;
+}
