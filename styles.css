@@ -16,7 +16,7 @@ header {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
- }
+}
 
 nav a {
     color: #E5E7EB;
@@ -134,11 +134,44 @@ button {
   margin: 0;
 }
 
-blockquote footer {
+.quote-footer {
     text-align: right;
     font-weight: bold;
     font-style: normal;
     font-size: 24px;
     margin-top: 20px;
     margin-right: 50px;
-    }
+}
+
+.cta-section {
+    padding: 100px 50px;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.cta-text h3, .cta-text p {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.cta-text p {
+    font-weight: 100;
+}
+
+.cta-button {
+    background-color: transparent;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 8px 30px;
+    font-size: 18px;
+}
